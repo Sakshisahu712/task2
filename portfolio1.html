@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AboutMe</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="portfolio1.css">
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img class="logo" src="./logo1.jpg" alt="">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">services</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="ri-close-circle-fill" onclick="closemenu()"></i>
+                </ul>
+                <i class="ri-menu-line" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Web Developer</p>
+                <h1>Hello, I'm <span>Sakshi</span><br> Sahu From Bhopal</h1>
+            </div>
+        </div>
+    </div>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./half.jpeg" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About me</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quo,
+                        cum debitis cupiditate quod tempore provident repellendus consequatur
+                        beatae cumque atque magnam accusantium quia libero necessitatibus.
+                        Similique perspiciatis sapiente mollitia ratione inventore, nisi
+                        illo quis? Illo excepturi optio perspiciatis molestias tempore deleniti
+                        eum dolorem, placeat laboriosam, ducimus, accusantium repudiandae commodi ut?
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>Web Development</span><br>Designing Web Interfaces</li>
+                            <li><span>UI?UX</span><br>Designing Web Interfaces</li>
+                            <li><span>App Development</span><br>Designing Web Interfaces</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>2023 - current</span><br>Server Site</li>
+                            <li><span>2022 - 2023</span><br>Designing Web Interfaces</li>
+                            <li><span>2021 - 2022</span><br>Programing language</li>
+                        </ul>
+                    </div>
+
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2020</span><br>B.tech From LNCT</li>
+                            <li><span>2018</span><br>Higher Education</li>
+                            <li><span>2016</span><br>Schooling</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="ri-code-s-slash-line"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Laudantium tempora facilis, ducimus quas nobis beatae cumque 
+                        hic a quis, dicta accusamus officia delectus magni dolor.
+                    </p>
+                        <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="ri-smartphone-line"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Laudantium tempora facilis, ducimus quas nobis beatae cumque 
+                        hic a quis, dicta accusamus officia delectus magni dolor.
+                    </p>
+                        <a href="#">Learn More</a>
+                </div>
+
+                <div>
+                    <i class="ri-edit-2-fill"></i>
+                    <h2>Creative Design</h2>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                        Laudantium tempora facilis, ducimus quas nobis beatae cumque 
+                        hic a quis, dicta accusamus officia delectus magni dolor.
+                    </p>
+                        <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="projects">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="./pro1.jpeg">
+                    <div class="layer">
+                        <h3>Dance Page</h3>
+                        <p>It is animated page, I used amazing hover effect on text.
+                            It is simply a dance add page.
+                        </p>
+                        <a href="#"><i class="ri-external-link-fill"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./pro2.jpeg">
+                    <div class="layer">
+                        <h3>Fashion</h3>
+                        <p>It is animated page, I used amazing slider effect on images.
+                            It is simply a fontend page.
+                        </p>
+                        <a href="#"><i class="ri-external-link-fill"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./pro3.jpeg">
+                    <div class="layer">
+                        <h3>Section</h3>
+                        <p>It is section divide page, I used amazing layout on images.
+                            It is simply a decorator page.
+                        </p>
+                        <a href="#"><i class="ri-external-link-fill"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+        </div>
+    </div>
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="ri-send-plane-fill"></i>sakshisahu9181@gmail.com</p>
+                    <p><i class="ri-phone-fill"></i>1234567890</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/sakshi-sahu-716719206/"><i class="ri-linkedin-box-fill"></i></a>
+                        <a href="https://www.instagram.com/sakshisahu712/"><i class="ri-instagram-fill"></i></i></a>
+                        <a href="#"><i class="ri-facebook-box-fill"></i></i></a>
+                        <a href="#"><i class="ri-twitter-fill"></i></i></a>
+                    </div>
+                    <a href="./My_resume.pdf" download class="btn btn2">Download resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>copyright &copy;Sakshi Sahu<i class="ri-heart-fill"></i> portfolio </p>
+        </div>
+    </div>
+    <!-- <script src="portfolio1.js"></script> -->
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tablink.classList.remove("active-link");
+    }
+    for(tabcontent of tabcontents){
+        tabcontent.classList.remove("active-tab");
+    }
+    event.currentTarget.classList.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab")
+}
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+    </script>
+</body>
+</html>
